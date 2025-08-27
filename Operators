@@ -1,0 +1,85 @@
+SOURCE CODE:
+
+# Arithmetic Operators
+x = 10
+y = 3
+print("Arithmetic Operators:")
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Floor Division:", x // y)
+print("Modulus:", x % y)
+print("Exponentiation:", x ** y)
+
+
+
+# Comparison Operators
+print("\nComparison Operators:")
+print("Equal:", x == y)
+print("Not Equal:", x != y)
+print("Greater than:", x > y)
+print("Less than:", x <y)
+print("Greater than or equal:", x >= y)
+print("Less than or equal:",x <= y)
+
+# Logical Operators
+a = True
+b = False
+print("\nLogical Operators:")
+print("AND:", a and b)
+print("OR:", a or b)
+print("NOT:", not a)
+
+# Bitwise Operators
+print("\nBitwise Operators:")
+print("Bitwise AND:", x & y)
+print("Bitwise OR:", x | y)
+print("Bitwise XOR:", x ^ y)
+print("Bitwise NOT:", ~y)
+print("Bitwise Left Shift:", x << 1)
+print("Bit`wise Right Shift:", x >> 1)
+
+# Assignment Operators
+z = 5
+print("\nAssignment Operators:")
+z += 2
+print("+=:", z)
+z -= 2
+print("-=:", z)
+z *= 2
+print("*=:", z)
+z /= 2
+print("/=:", z)
+z %= 2
+print("%=:", z)
+z **= 2
+print("**=:", z)
+z //= 2
+print("//=:", z)
+
+# Identity Operators
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3] 
+print("\nIdentity Operators:")
+print("Is:", a is b)
+print("Is not:", a is not c)
+
+# Membership Operators
+print("\nMembership Operators:")
+print("In:", 1 in a)
+print("Not in:", 4 not in a)
+
+#unary operator
+m=-8
+k=5
+print("\nUnary Operator")
+print("Unary + =",+m)
+print("Unary -=",-m)
+print("Unary +=",+k)
+print("Unary -=",-k)
+
+
+
+
